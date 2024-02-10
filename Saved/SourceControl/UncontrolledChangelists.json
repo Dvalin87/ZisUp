@@ -5,6 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/MultitIIJAM/Documents/Multitijam/Fork/ZisUp/Content/ThirdPerson/Maps/Blockout.umap",
+				"C:/Users/MultitIIJAM/Documents/Multitijam/Fork/ZisUp/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"E:/fork/MultitiJam2024/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"E:/fork/MultitiJam2024/Content/bluprint/NewBlueprint.uasset",
 				"E:/fork/MultitiJam2024/Content/bluprint/BP_jumpPad.uasset",
