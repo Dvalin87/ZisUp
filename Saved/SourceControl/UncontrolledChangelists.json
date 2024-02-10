@@ -6,12 +6,13 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"E:/fork/MultitiJam2024/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
-				"E:/fork/MultitiJam2024/Content/bluprint/NewBlueprint.uasset",
 				"E:/fork/MultitiJam2024/Content/bluprint/BP_jumpPad.uasset",
 				"E:/fork/MultitiJam2024/Content/bluprint/BP_lamp.uasset",
 				"E:/fork/MultitiJam2024/Content/Characters/Mannequins/Meshes/SK_Mannequin.uasset",
 				"E:/fork/MultitiJam2024/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/CB/HG2JMT44AXUGGXRXVWZMGM.uasset",
-				"E:/fork/MultitiJam2024/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/VO/M3OM18I6WH28W6EVE2TKQO.uasset"
+				"E:/fork/MultitiJam2024/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/VO/M3OM18I6WH28W6EVE2TKQO.uasset",
+				"E:/fork/MultitiJam2024/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/A6/9FJBCVEZQEZ04QMBLAMIDY.uasset",
+				"E:/fork/MultitiJam2024/Content/bluprint/NewBlueprint.uasset"
 			]
 		}
 	]
