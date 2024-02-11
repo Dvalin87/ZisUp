@@ -2641,3 +2641,363 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.11-03.29.12:764][ 42]LogFileHelpers: InternalPromptForCheckoutAndSave took 204 ms (total: 13.2 sec)
 [2024.02.11-03.29.12:766][ 42]AssetCheck: New page: Asset Save: Blockout1
 [2024.02.11-03.29.12:766][ 42]LogContentValidation: Display: Validating /Script/Engine.World /Game/ThirdPerson/Maps/Blockout1.Blockout1
+[2024.02.11-03.29.48:134][364]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.11-03.29.48:140][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.11-03.29.48:140][364]PIE: New page: PIE session: Blockout1 (11 févr. 2024 à 05:29:48)
+[2024.02.11-03.29.48:167][364]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Blockout1
+[2024.02.11-03.29.48:194][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027579s)
+[2024.02.11-03.29.48:194][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Blockout1.Blockout1 to /Game/ThirdPerson/Maps/UEDPIE_0_Blockout1.Blockout1 (0.027670s)
+[2024.02.11-03.29.48:204][364]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.02.11-03.29.48:205][364]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.11-03.29.48:205][364]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.11-03.29.48:206][364]LogAIModule: Creating AISystem for world Blockout1
+[2024.02.11-03.29.48:206][364]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2024.02.11-03.29.48:206][364]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.02.11-03.29.48:206][364]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.11-03.29.48:206][364]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.11-03.29.48:206][364]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.11-03.29.48:206][364]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.11-03.29.48:206][364]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.11-03.29.48:206][364]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.11-03.29.48:206][364]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.11-03.29.48:206][364]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.11-03.29.48:206][364]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.11-03.29.48:206][364]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.11-03.29.48:206][364]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.11-03.29.48:208][364]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.11-03.29.48:220][364]LogAudioMixer: Display: Using Audio Hardware Device Casque (High Definition Audio Device)
+[2024.02.11-03.29.48:220][364]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.11-03.29.48:220][364]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.11-03.29.48:220][364]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.11-03.29.48:221][364]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.02.11-03.29.48:221][364]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.02.11-03.29.48:222][364]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.02.11-03.29.48:222][364]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.02.11-03.29.48:222][364]LogInit: FAudioDevice initialized with ID 14.
+[2024.02.11-03.29.48:222][364]LogAudio: Display: Audio Device (ID: 14) registered with world 'Blockout1'.
+[2024.02.11-03.29.48:222][364]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.02.11-03.29.48:224][364]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.11-03.29.48:232][364]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Blockout1.Blockout1 up for play (max tick rate 0) at 2024.02.11-04.29.48
+[2024.02.11-03.29.48:233][364]LogWorld: Bringing up level for play took: 0.008489
+[2024.02.11-03.29.48:234][364]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.02.11-03.29.48:237][364]PIE: Server logged in
+[2024.02.11-03.29.48:238][364]PIE: Play in editor total start time 0,098 seconds.
+[2024.02.11-03.30.14:658][520]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.11-03.30.14:658][520]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Blockout1
+[2024.02.11-03.30.14:659][520]LogWorld: UWorld::CleanupWorld for Blockout1, bSessionEnded=true, bCleanupResources=true
+[2024.02.11-03.30.14:661][520]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.11-03.30.14:666][520]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.11-03.30.14:671][520]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.11-03.30.14:683][520]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.11-03.30.14:683][520]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.02.11-03.30.14:683][520]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.02.11-03.30.14:685][520]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.02.11-03.30.14:687][520]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.11-03.30.14:692][520]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.02.11-03.30.14:741][521]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.02.11-03.30.17:800][873]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.11-03.30.17:800][873]PIE: New page: PIE session: Blockout1 (11 févr. 2024 à 05:30:17)
+[2024.02.11-03.30.17:826][873]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Blockout1
+[2024.02.11-03.30.17:852][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025453s)
+[2024.02.11-03.30.17:852][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Blockout1.Blockout1 to /Game/ThirdPerson/Maps/UEDPIE_0_Blockout1.Blockout1 (0.025521s)
+[2024.02.11-03.30.17:862][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.02.11-03.30.17:863][873]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.11-03.30.17:863][873]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.11-03.30.17:864][873]LogAIModule: Creating AISystem for world Blockout1
+[2024.02.11-03.30.17:864][873]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2024.02.11-03.30.17:864][873]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.02.11-03.30.17:864][873]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.11-03.30.17:864][873]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.11-03.30.17:864][873]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.11-03.30.17:864][873]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.11-03.30.17:864][873]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.11-03.30.17:864][873]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.11-03.30.17:864][873]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.11-03.30.17:864][873]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.11-03.30.17:864][873]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.11-03.30.17:864][873]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.11-03.30.17:864][873]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.11-03.30.17:867][873]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.11-03.30.17:877][873]LogAudioMixer: Display: Using Audio Hardware Device Casque (High Definition Audio Device)
+[2024.02.11-03.30.17:877][873]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.11-03.30.17:877][873]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.11-03.30.17:877][873]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.11-03.30.17:878][873]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.02.11-03.30.17:878][873]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.02.11-03.30.17:880][873]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.02.11-03.30.17:880][873]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.02.11-03.30.17:880][873]LogInit: FAudioDevice initialized with ID 15.
+[2024.02.11-03.30.17:880][873]LogAudio: Display: Audio Device (ID: 15) registered with world 'Blockout1'.
+[2024.02.11-03.30.17:880][873]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.02.11-03.30.17:935][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.11-03.30.17:935][873]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.11-03.30.17:946][873]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Blockout1.Blockout1 up for play (max tick rate 0) at 2024.02.11-04.30.17
+[2024.02.11-03.30.17:946][873]LogWorld: Bringing up level for play took: 0.011376
+[2024.02.11-03.30.17:949][873]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.02.11-03.30.17:953][873]PIE: Server logged in
+[2024.02.11-03.30.17:954][873]PIE: Play in editor total start time 0,154 seconds.
+[2024.02.11-03.30.17:994][873]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.02.11-03.32.55:818][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.11-03.32.55:818][794]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Blockout1
+[2024.02.11-03.32.55:819][794]LogSlate: Window 'MultitiJam2024 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.02.11-03.32.55:836][794]LogWorld: UWorld::CleanupWorld for Blockout1, bSessionEnded=true, bCleanupResources=true
+[2024.02.11-03.32.55:837][794]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.11-03.32.55:839][794]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.11-03.32.55:842][794]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.11-03.32.55:854][794]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.11-03.32.55:854][794]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.02.11-03.32.55:854][794]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.02.11-03.32.55:856][794]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.02.11-03.32.55:863][794]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.02.11-03.32.55:907][795]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.02.11-03.32.56:986][921]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.02.11-03.32.56:990][921]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.11-03.32.56:990][921]PIE: New page: PIE session: Blockout1 (11 févr. 2024 à 05:32:56)
+[2024.02.11-03.32.56:991][921]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Blockout1
+[2024.02.11-03.32.57:017][921]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027152s)
+[2024.02.11-03.32.57:017][921]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Blockout1.Blockout1 to /Game/ThirdPerson/Maps/UEDPIE_0_Blockout1.Blockout1 (0.027193s)
+[2024.02.11-03.32.57:026][921]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.02.11-03.32.57:027][921]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.11-03.32.57:027][921]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.11-03.32.57:028][921]LogAIModule: Creating AISystem for world Blockout1
+[2024.02.11-03.32.57:028][921]LogPlayLevel: PIE: World Init took: (0.000772s)
+[2024.02.11-03.32.57:028][921]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.02.11-03.32.57:028][921]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.11-03.32.57:028][921]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.11-03.32.57:028][921]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.11-03.32.57:028][921]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.11-03.32.57:028][921]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.11-03.32.57:028][921]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.11-03.32.57:028][921]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.11-03.32.57:028][921]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.11-03.32.57:029][921]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.11-03.32.57:029][921]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.11-03.32.57:029][921]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.11-03.32.57:030][921]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.11-03.32.57:041][921]LogAudioMixer: Display: Using Audio Hardware Device Casque (High Definition Audio Device)
+[2024.02.11-03.32.57:041][921]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.11-03.32.57:041][921]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.11-03.32.57:041][921]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.11-03.32.57:042][921]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.02.11-03.32.57:042][921]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.02.11-03.32.57:043][921]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.02.11-03.32.57:043][921]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.02.11-03.32.57:043][921]LogInit: FAudioDevice initialized with ID 16.
+[2024.02.11-03.32.57:043][921]LogAudio: Display: Audio Device (ID: 16) registered with world 'Blockout1'.
+[2024.02.11-03.32.57:044][921]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.02.11-03.32.57:085][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.11-03.32.57:085][921]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.11-03.32.57:098][921]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Blockout1.Blockout1 up for play (max tick rate 0) at 2024.02.11-04.32.57
+[2024.02.11-03.32.57:099][921]LogWorld: Bringing up level for play took: 0.013426
+[2024.02.11-03.32.57:101][921]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.02.11-03.32.57:105][921]PIE: Server logged in
+[2024.02.11-03.32.57:106][921]PIE: Play in editor total start time 0,116 seconds.
+[2024.02.11-03.32.57:118][921]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.02.11-03.34.44:067][741]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.11-03.34.44:067][741]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Blockout1
+[2024.02.11-03.34.44:067][741]LogSlate: Window 'MultitiJam2024 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.02.11-03.34.44:071][741]LogWorld: UWorld::CleanupWorld for Blockout1, bSessionEnded=true, bCleanupResources=true
+[2024.02.11-03.34.44:072][741]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.11-03.34.44:074][741]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.11-03.34.44:079][741]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.11-03.34.44:091][741]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.02.11-03.34.44:091][741]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.02.11-03.34.44:092][741]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.02.11-03.34.44:100][741]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.02.11-03.34.44:143][742]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.02.11-03.34.46:147][976]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.11-03.34.46:147][976]PIE: New page: PIE session: Blockout1 (11 févr. 2024 à 05:34:46)
+[2024.02.11-03.34.46:147][976]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Blockout1
+[2024.02.11-03.34.46:174][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026571s)
+[2024.02.11-03.34.46:174][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Blockout1.Blockout1 to /Game/ThirdPerson/Maps/UEDPIE_0_Blockout1.Blockout1 (0.026633s)
+[2024.02.11-03.34.46:183][976]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.02.11-03.34.46:185][976]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.11-03.34.46:185][976]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.11-03.34.46:185][976]LogAIModule: Creating AISystem for world Blockout1
+[2024.02.11-03.34.46:185][976]LogPlayLevel: PIE: World Init took: (0.000849s)
+[2024.02.11-03.34.46:186][976]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.02.11-03.34.46:186][976]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.11-03.34.46:186][976]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.11-03.34.46:186][976]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.11-03.34.46:186][976]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.11-03.34.46:186][976]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.11-03.34.46:186][976]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.11-03.34.46:186][976]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.11-03.34.46:186][976]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.11-03.34.46:186][976]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.11-03.34.46:186][976]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.11-03.34.46:187][976]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.11-03.34.46:188][976]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.11-03.34.46:199][976]LogAudioMixer: Display: Using Audio Hardware Device Casque (High Definition Audio Device)
+[2024.02.11-03.34.46:199][976]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.11-03.34.46:199][976]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.11-03.34.46:199][976]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.11-03.34.46:200][976]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.02.11-03.34.46:200][976]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.02.11-03.34.46:202][976]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.02.11-03.34.46:202][976]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.02.11-03.34.46:202][976]LogInit: FAudioDevice initialized with ID 17.
+[2024.02.11-03.34.46:202][976]LogAudio: Display: Audio Device (ID: 17) registered with world 'Blockout1'.
+[2024.02.11-03.34.46:202][976]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.02.11-03.34.46:203][976]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.11-03.34.46:211][976]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Blockout1.Blockout1 up for play (max tick rate 0) at 2024.02.11-04.34.46
+[2024.02.11-03.34.46:212][976]LogWorld: Bringing up level for play took: 0.008059
+[2024.02.11-03.34.46:214][976]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.02.11-03.34.46:216][976]PIE: Server logged in
+[2024.02.11-03.34.46:216][976]PIE: Play in editor total start time 0,069 seconds.
+[2024.02.11-03.34.48:038][130]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.11-03.34.48:088][130]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.02.11-03.34.48:088][130]LogSavePackage: Moving '../../../../../../Users/MultitIIJAM/Documents/Multitijam/Fork/ZisUp/Saved/BP_ThirdPersonCharacterA1793ECC410C6D901C77D9885102AC80.tmp' to '../../../../../../Users/MultitIIJAM/Documents/Multitijam/Fork/ZisUp/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.02.11-03.34.48:089][130]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 13.3 sec)
+[2024.02.11-03.34.48:094][130]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.02.11-03.34.48:094][130]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.02.11-03.34.50:537][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.11-03.34.50:537][317]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Blockout1
+[2024.02.11-03.34.50:538][317]LogWorld: UWorld::CleanupWorld for Blockout1, bSessionEnded=true, bCleanupResources=true
+[2024.02.11-03.34.50:540][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.11-03.34.50:543][317]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.11-03.34.50:547][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.11-03.34.50:559][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.11-03.34.50:561][317]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.02.11-03.34.50:561][317]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.02.11-03.34.50:562][317]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.02.11-03.34.50:569][317]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.02.11-03.34.50:621][318]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.02.11-03.35.00:625][347]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.11-03.35.00:786][347]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.02.11-03.35.00:786][347]LogSavePackage: Moving '../../../../../../Users/MultitIIJAM/Documents/Multitijam/Fork/ZisUp/Saved/BP_ThirdPersonCharacter9FBCFD6447C3EB2B6D6F12853D52D135.tmp' to '../../../../../../Users/MultitIIJAM/Documents/Multitijam/Fork/ZisUp/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.02.11-03.35.00:793][347]LogFileHelpers: InternalPromptForCheckoutAndSave took 167 ms (total: 13.4 sec)
+[2024.02.11-03.35.00:797][347]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.02.11-03.35.00:797][347]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.02.11-03.35.02:729][540]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.02.11-03.35.02:833][540]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.02.11-03.35.18:917][183]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.11-03.35.19:083][183]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.02.11-03.35.19:084][183]LogSavePackage: Moving '../../../../../../Users/MultitIIJAM/Documents/Multitijam/Fork/ZisUp/Saved/BP_ThirdPersonCharacterF14CD8FE473B012975BF6198DFBA46A2.tmp' to '../../../../../../Users/MultitIIJAM/Documents/Multitijam/Fork/ZisUp/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.02.11-03.35.19:091][183]LogFileHelpers: InternalPromptForCheckoutAndSave took 173 ms (total: 13.6 sec)
+[2024.02.11-03.35.19:092][183]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.02.11-03.35.19:092][183]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.02.11-03.35.25:359][869]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.11-03.35.25:523][869]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.02.11-03.35.25:524][869]LogSavePackage: Moving '../../../../../../Users/MultitIIJAM/Documents/Multitijam/Fork/ZisUp/Saved/BP_ThirdPersonCharacter24E8A8F44D99C575484F7982AFA2B7A9.tmp' to '../../../../../../Users/MultitIIJAM/Documents/Multitijam/Fork/ZisUp/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.02.11-03.35.25:531][869]LogFileHelpers: InternalPromptForCheckoutAndSave took 171 ms (total: 13.8 sec)
+[2024.02.11-03.35.25:534][869]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.02.11-03.35.25:534][869]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.02.11-03.35.33:447][795]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.11-03.35.33:558][795]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.02.11-03.35.33:559][795]LogSavePackage: Moving '../../../../../../Users/MultitIIJAM/Documents/Multitijam/Fork/ZisUp/Saved/BP_ThirdPersonCharacter010AB5AA4B439EEA898BAAA24C680FEA.tmp' to '../../../../../../Users/MultitIIJAM/Documents/Multitijam/Fork/ZisUp/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.02.11-03.35.33:565][795]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 13.9 sec)
+[2024.02.11-03.35.33:567][795]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.02.11-03.35.33:567][795]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.02.11-03.35.37:867][302]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.11-03.35.37:967][302]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.02.11-03.35.37:968][302]LogSavePackage: Moving '../../../../../../Users/MultitIIJAM/Documents/Multitijam/Fork/ZisUp/Saved/BP_ThirdPersonCharacterCD46F1A144FA3F0BED96AC97832B92B3.tmp' to '../../../../../../Users/MultitIIJAM/Documents/Multitijam/Fork/ZisUp/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.02.11-03.35.37:973][302]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms (total: 14.0 sec)
+[2024.02.11-03.35.37:977][302]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.02.11-03.35.37:977][302]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.02.11-03.35.38:646][377]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.02.11-03.35.38:705][377]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.02.11-03.35.39:298][411]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.11-03.35.39:459][411]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.02.11-03.35.39:459][411]LogSavePackage: Moving '../../../../../../Users/MultitIIJAM/Documents/Multitijam/Fork/ZisUp/Saved/BP_ThirdPersonCharacter8F48E20B4039A76619185D9CFA0D5EBA.tmp' to '../../../../../../Users/MultitIIJAM/Documents/Multitijam/Fork/ZisUp/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.02.11-03.35.39:465][411]LogFileHelpers: InternalPromptForCheckoutAndSave took 166 ms (total: 14.2 sec)
+[2024.02.11-03.35.39:466][411]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.02.11-03.35.39:466][411]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.02.11-03.35.40:987][557]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.11-03.35.40:992][557]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.11-03.35.40:992][557]PIE: New page: PIE session: Blockout1 (11 févr. 2024 à 05:35:40)
+[2024.02.11-03.35.40:992][557]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Blockout1
+[2024.02.11-03.35.41:019][557]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026951s)
+[2024.02.11-03.35.41:019][557]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Blockout1.Blockout1 to /Game/ThirdPerson/Maps/UEDPIE_0_Blockout1.Blockout1 (0.027012s)
+[2024.02.11-03.35.41:030][557]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.02.11-03.35.41:035][557]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.11-03.35.41:035][557]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.11-03.35.41:035][557]LogAIModule: Creating AISystem for world Blockout1
+[2024.02.11-03.35.41:036][557]LogPlayLevel: PIE: World Init took: (0.000830s)
+[2024.02.11-03.35.41:036][557]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.02.11-03.35.41:036][557]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.11-03.35.41:036][557]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.11-03.35.41:036][557]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.11-03.35.41:036][557]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.11-03.35.41:036][557]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.11-03.35.41:036][557]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.11-03.35.41:036][557]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.11-03.35.41:036][557]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.11-03.35.41:036][557]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.11-03.35.41:036][557]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.11-03.35.41:036][557]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.11-03.35.41:038][557]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.11-03.35.41:049][557]LogAudioMixer: Display: Using Audio Hardware Device Casque (High Definition Audio Device)
+[2024.02.11-03.35.41:050][557]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.11-03.35.41:050][557]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.11-03.35.41:050][557]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.11-03.35.41:050][557]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.02.11-03.35.41:050][557]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.02.11-03.35.41:052][557]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.02.11-03.35.41:052][557]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.02.11-03.35.41:052][557]LogInit: FAudioDevice initialized with ID 18.
+[2024.02.11-03.35.41:052][557]LogAudio: Display: Audio Device (ID: 18) registered with world 'Blockout1'.
+[2024.02.11-03.35.41:052][557]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.02.11-03.35.41:054][557]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.11-03.35.41:062][557]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Blockout1.Blockout1 up for play (max tick rate 0) at 2024.02.11-04.35.41
+[2024.02.11-03.35.41:063][557]LogWorld: Bringing up level for play took: 0.008113
+[2024.02.11-03.35.41:065][557]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.02.11-03.35.41:067][557]PIE: Server logged in
+[2024.02.11-03.35.41:067][557]PIE: Play in editor total start time 0,075 seconds.
+[2024.02.11-03.35.58:457][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.11-03.35.58:457][630]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Blockout1
+[2024.02.11-03.35.58:458][630]LogWorld: UWorld::CleanupWorld for Blockout1, bSessionEnded=true, bCleanupResources=true
+[2024.02.11-03.35.58:459][630]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.11-03.35.58:462][630]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.11-03.35.58:465][630]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.11-03.35.58:479][630]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.11-03.35.58:479][630]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.02.11-03.35.58:479][630]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.02.11-03.35.58:481][630]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.02.11-03.35.58:484][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.11-03.35.58:488][630]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.02.11-03.35.58:536][631]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.02.11-03.35.59:152][701]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.11-03.35.59:230][701]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.02.11-03.35.59:333][701]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/Blockout1
+[2024.02.11-03.35.59:334][701]LogSavePackage: Moving '../../../../../../Users/MultitIIJAM/Documents/Multitijam/Fork/ZisUp/Saved/Blockout1FDCD6FFA4A82339260F564BFE75301A7.tmp' to '../../../../../../Users/MultitIIJAM/Documents/Multitijam/Fork/ZisUp/Content/ThirdPerson/Maps/Blockout1.umap'
+[2024.02.11-03.35.59:342][701]LogFileHelpers: Saving map 'Blockout1' took 0.135
+[2024.02.11-03.35.59:350][701]LogFileHelpers: InternalPromptForCheckoutAndSave took 198 ms (total: 14.4 sec)
+[2024.02.11-03.35.59:351][701]AssetCheck: New page: Asset Save: Blockout1
+[2024.02.11-03.35.59:352][701]LogContentValidation: Display: Validating /Script/Engine.World /Game/ThirdPerson/Maps/Blockout1.Blockout1
+[2024.02.11-03.36.23:281][572]Cmd: SELECT NONE
+[2024.02.11-03.36.34:844][945]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.11-03.36.34:930][945]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.02.11-03.36.35:038][945]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/Blockout1
+[2024.02.11-03.36.35:038][945]LogSavePackage: Moving '../../../../../../Users/MultitIIJAM/Documents/Multitijam/Fork/ZisUp/Saved/Blockout1BE14F4E14322AD554930CC98D5AAC0CA.tmp' to '../../../../../../Users/MultitIIJAM/Documents/Multitijam/Fork/ZisUp/Content/ThirdPerson/Maps/Blockout1.umap'
+[2024.02.11-03.36.35:046][945]LogFileHelpers: Saving map 'Blockout1' took 0.138
+[2024.02.11-03.36.35:053][945]LogFileHelpers: InternalPromptForCheckoutAndSave took 210 ms (total: 14.6 sec)
+[2024.02.11-03.36.35:054][945]AssetCheck: New page: Asset Save: Blockout1
+[2024.02.11-03.36.35:054][945]LogContentValidation: Display: Validating /Script/Engine.World /Game/ThirdPerson/Maps/Blockout1.Blockout1
+[2024.02.11-03.36.35:781][ 30]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.02.11-03.36.37:737][243]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.11-03.36.37:807][243]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.02.11-03.36.37:918][243]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/Blockout1
+[2024.02.11-03.36.37:919][243]LogSavePackage: Moving '../../../../../../Users/MultitIIJAM/Documents/Multitijam/Fork/ZisUp/Saved/Blockout1CD9B6E3B4190A4D3CA0998BE4E051974.tmp' to '../../../../../../Users/MultitIIJAM/Documents/Multitijam/Fork/ZisUp/Content/ThirdPerson/Maps/Blockout1.umap'
+[2024.02.11-03.36.37:926][243]LogFileHelpers: Saving map 'Blockout1' took 0.139
+[2024.02.11-03.36.37:935][243]LogFileHelpers: InternalPromptForCheckoutAndSave took 198 ms (total: 14.8 sec)
+[2024.02.11-03.36.37:936][243]AssetCheck: New page: Asset Save: Blockout1
+[2024.02.11-03.36.37:936][243]LogContentValidation: Display: Validating /Script/Engine.World /Game/ThirdPerson/Maps/Blockout1.Blockout1
+[2024.02.11-03.36.42:319][760]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.02.11-03.42.11:959][269]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.11-03.42.12:012][269]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.02.11-03.42.12:121][269]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/Blockout1
+[2024.02.11-03.42.12:122][269]LogSavePackage: Moving '../../../../../../Users/MultitIIJAM/Documents/Multitijam/Fork/ZisUp/Saved/Blockout1EC5937B246AC453473C051801F6356D2.tmp' to '../../../../../../Users/MultitIIJAM/Documents/Multitijam/Fork/ZisUp/Content/ThirdPerson/Maps/Blockout1.umap'
+[2024.02.11-03.42.12:128][269]LogFileHelpers: Saving map 'Blockout1' took 0.140
+[2024.02.11-03.42.12:136][269]LogFileHelpers: InternalPromptForCheckoutAndSave took 176 ms (total: 14.9 sec)
+[2024.02.11-03.42.12:139][269]AssetCheck: New page: Asset Save: Blockout1
+[2024.02.11-03.42.12:139][269]LogContentValidation: Display: Validating /Script/Engine.World /Game/ThirdPerson/Maps/Blockout1.Blockout1
+[2024.02.11-03.42.12:418][301]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.02.11-03.42.14:183][504]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.11-03.42.14:242][504]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.02.11-03.42.14:350][504]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/Blockout1
+[2024.02.11-03.42.14:351][504]LogSavePackage: Moving '../../../../../../Users/MultitIIJAM/Documents/Multitijam/Fork/ZisUp/Saved/Blockout17EDBC17846E807550C7356A17267FA01.tmp' to '../../../../../../Users/MultitIIJAM/Documents/Multitijam/Fork/ZisUp/Content/ThirdPerson/Maps/Blockout1.umap'
+[2024.02.11-03.42.14:358][504]LogFileHelpers: Saving map 'Blockout1' took 0.137
+[2024.02.11-03.42.14:366][504]LogFileHelpers: InternalPromptForCheckoutAndSave took 182 ms (total: 15.1 sec)
+[2024.02.11-03.42.14:369][504]AssetCheck: New page: Asset Save: Blockout1
+[2024.02.11-03.42.14:369][504]LogContentValidation: Display: Validating /Script/Engine.World /Game/ThirdPerson/Maps/Blockout1.Blockout1
